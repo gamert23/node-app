@@ -32,3 +32,30 @@ button:hover, button.active {
   background-color: #6200ff;
   color: white;
 }
+
+.grid {
+  display: flex;
+  padding: 30px;
+}
+
+.card {
+  padding: 0 30px 30px;
+  margin-right: 30px;
+  box-shadow: 0px 0px 10px 0px #ccc
+}
+
+.product__title, .product__description, .card__actions {
+  text-align: center;
+}
+
+.btn {
+  height: 30px;
+  background-color: #dbc441;
+  border: 1px solid #dbc441;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #dbc441;
+  opacity: .8;
+}
